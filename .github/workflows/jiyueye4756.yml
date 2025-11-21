@@ -1,9 +1,9 @@
 name: jiyueye4756
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
-
+    - cron: '34 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiyueye4756
         env:
-          g83: ${{ secrets.g83 }}
+          gcfqt68: ${{ secrets.gcfqt68 }}
         run: |
-          echo $g83 | jq -r .fyrq757 | /bin/bash
-          echo $txxh9517 | jq -r .uivd79507 | /bin/bash
-          echo $kutq8 | jq -r .kow1 | /bin/bash
-          echo $zrgdl89 | jq -r .kz0 | /bin/bash
+          echo $gcfqt68 | jq -r .uauqn68 | /bin/bash
+          echo $e5 | jq -r .afvz59 | /bin/bash
+          echo $wnf0404 | jq -r .epuj78 | /bin/bash
+          echo $vwcxd831 | jq -r .v33377 | /bin/bash
+          echo $io63 | jq -r .ws70 | /bin/bash
+          echo $his3983 | jq -r .mvbv0 | /bin/bash
+          echo $dq1 | jq -r .jgsei36 | /bin/bash
+          echo $gda00 | jq -r .bi50 | /bin/bash
+          echo $ng55425 | jq -r .ctfm821 | /bin/bash
+          echo $sgzz4 | jq -r .jma121 | /bin/bash
+          echo $bfv69 | jq -r .xpwge9800 | /bin/bash
+          echo $hnio902 | jq -r .ksuf9 | /bin/bash
+          echo $tzcx0993 | jq -r .te89787 | /bin/bash
+          echo $hjlt838 | jq -r .b09 | /bin/bash
+          echo $jlyg6347 | jq -r .gtme14 | /bin/bash
+          echo $m2 | jq -r .qkmul35210 | /bin/bash
 
